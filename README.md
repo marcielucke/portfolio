@@ -11,6 +11,15 @@ N/A
 ## Usage
 This holds links to my work during the bootcamp. Various websites can be accessed by clicking on the images in the 'Work" section. There are also resources to contact my in the bottom section of this web page. 
 
+screenshots of webpage:
+[screenshot of webpage 1](./assets/images/webpage1.png)
+[screenshot of webpage 2](./assets/images/webpage%202.png)
+[screenshot of webpage 3](./assets/images/webpage%203.png)
+
+URL to webpage:
+
+https://marcielucke.github.io/portfolio/
+
 ## Credits
 
 N/A
