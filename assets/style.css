@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: midnightblue;
+}
+html {
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(152,221,208,1) 100%);
+}
+
+header {
+    display: block;
+    height: 400px;
+}
+
+.aboutMeContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.photo {
+    flex: none;
+    height: 600px;
+    width: 50%;
+    margin-bottom: 55px;
+    background-image: url(./Screen\ Shot\ 2022-09-23\ at\ 3.07.12\ PM.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 5px blue;
+
+    
+}
+
+
+header h1 {
+    background: rgb(104, 218, 197);
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 4px 4px whitesmoke;
+
+}
+.work {
+    display: flex;
+    flex: wrap;
+    justify-content: space-between ;
+    align-items: flex-start;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+p { 
+    word-spacing: 2px;
+    line-height: 35px;
+}
+
+.photoblock {
+width: 180px;
+margin: 5px;
+border: 5px solid whitesmoke;
+flex: none;
+
+
+}
+
+
+div.photoblock img {
+    width: 100%;
+  height: 200px;
+  flex: none;
+
+}
+
+div.photoblock:hover {
+    border: 5px pink;
+    color:aliceblue
+}
+
+
+
+a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 24px;
+    text-shadow: 4px 4px whitesmoke;
+    border: 2px whitesmoke;
+    
+   
+}
+
+ul {
+display: flex;
+justify-content: space-around;
+
+}
+
+.sectionTitle {
+    display: inline-block;
+    padding: 20px;
+    background-color: rgb(104, 218, 197);
+    box-shadow: 2px 2px whitesmoke;
+}
+
+@media screen and (max-width: 768px) {
+    div.photoblock img {
+        display: block;
+        width: 100%;
+    }
+
+}
